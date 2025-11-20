@@ -10,7 +10,7 @@ import requests
 import geocoder
 
 
-MODEL_PATH = "model.h5"  
+MODEL_PATH = "drunk_model.h5"  
 WINDOW_SIZE = 30                     
 DISPLAY_SCALE = 1.0                  
 CONF_THRESH = 0.5                   
