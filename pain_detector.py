@@ -112,7 +112,6 @@ def main():
         min_tracking_confidence=0.5) as face_mesh:
 
         while True:
-            # ✅ check hardware signal
             if hardware.check_signal():   
                 print("[INFO] Hardware signal received → Switching to drunk_detector.py")
                 cap.release()
@@ -193,3 +192,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
